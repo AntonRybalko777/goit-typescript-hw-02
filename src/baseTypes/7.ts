@@ -13,6 +13,6 @@ enum Days {
   Sunday = "Sunday",
 }
 
-function isWeekend(day: string): boolean {
+function isWeekend(day: Days): boolean {
   return day === Days.Friday || day === Days.Sunday;
 }
